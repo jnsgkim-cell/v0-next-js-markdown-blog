@@ -5,7 +5,7 @@ date: "2024-03-20"
 slug: "nextjs-15-features"
 tags: ["개발", "Next.js", "React"]
 coverImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800"
-relatedPosts: ["typescript-best-practices", "react-server-components"]
+relatedPosts: ["typescript-best-practices", "prompt-engineering-basics", "react-server-components"]
 ---
 
 Next.js 15가 출시되면서 많은 변화가 있었습니다. 이번 글에서는 주요 변경사항들을 살펴보겠습니다.

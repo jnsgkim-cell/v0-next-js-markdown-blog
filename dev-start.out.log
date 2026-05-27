@@ -1,0 +1,9 @@
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.30.1.33:3000
+✓ Ready in 454ms
+Creating turbopack project {
+  dir: 'C:\\Users\\USER\\OneDrive\\Desktop\\CODE\\v0-next-js-markdown-blog',
+  testMode: true
+}
+

@@ -5,7 +5,7 @@ date: "2024-03-01"
 slug: "typescript-best-practices"
 tags: ["개발", "TypeScript", "팁"]
 coverImage: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800"
-relatedPosts: ["nextjs-15-features"]
+relatedPosts: ["nextjs-15-features", "prompt-engineering-basics"]
 ---
 
 TypeScript를 더 효과적으로 사용하기 위한 베스트 프랙티스를 정리했습니다.
