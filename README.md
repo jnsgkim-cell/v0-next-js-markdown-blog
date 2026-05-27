@@ -24,6 +24,40 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Deploying to Vercel
+
+This project is configured for Vercel with `vercel.json`, `pnpm@10.15.0`, and Node.js 22.
+
+1. Import this Git repository in Vercel.
+2. Use the default Next.js framework preset.
+3. Leave environment variables empty unless you add new runtime configuration later.
+4. Deploy. Vercel will run `corepack enable && pnpm install --frozen-lockfile`, then `pnpm build`.
+
+For local production verification, run:
+
+```bash
+corepack pnpm build
+```
+
+## GitHub Actions Vercel Deployment
+
+The workflow at `.github/workflows/vercel-deploy.yml` deploys pull requests as Vercel Preview deployments and pushes to `main` as Production deployments.
+
+Add these GitHub repository secrets before running the workflow:
+
+- `VERCEL_TOKEN`
+- `VERCEL_ORG_ID`
+- `VERCEL_PROJECT_ID`
+
+You can get the project values locally after linking the project with Vercel:
+
+```bash
+vercel link
+vercel env pull .env.local
+```
+
+Then copy `orgId` and `projectId` from `.vercel/project.json` into the matching GitHub Secrets.
+
 ## Learn More
 
 To learn more, take a look at the following resources:
